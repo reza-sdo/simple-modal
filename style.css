@@ -1,0 +1,32 @@
+.backdrop{
+    background-color:rgba(0, 0, 0, 0.4) ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 5;
+    
+}
+.modal{
+    width: 20rem;
+    height: 200px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    opacity: 0;
+    transition: all 0.5s ease-in-out ;
+    transform: translateY(-100vh);  
+    z-index: 10;
+    position: absolute;
+}
+
+body{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
